@@ -1,53 +1,67 @@
-body
-{
+body {
     font-family: "Roboto", sans-serif;
     background-color: #fff;
     color: #434455;
 }
 
-ul, ol
-{
-list-style-type: none;
+ul,
+ol {
+    list-style-type: none;
 }
 
-a
-{
-text-decoration: none;
+a {
+    text-decoration: none;
 }
 
-.logo
-{
+.address-head {
+    font-style: normal;
+}
+
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
+    letter-spacing: 0.03px;
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.logo-text
-{
+
+.logo-text {
     color: #2e2f42;
 }
-.link-header
-{
+
+.link-header {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#2e2f42;
+    color: #2e2f42;
 }
-.link-header:focus, .link-header:hover
-{
-    color:404BBF;
+
+.link-header:focus,
+.link-header:hover {
+    color: #404BBF;
 }
-.adress-link
-{
-font-size: 16px;
+
+.address-link {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .02em;
+    color: #434455;
+    font-style: normal;
 }
-.business
-{
+
+.address-link:focus,
+.address-link:hover {
+    color: #404BBF;
+    
+}
+
+.business {
     background-color: #2e2f42;
 }
+
 .business-h {
     font-weight: 700;
     font-size: 56px;
@@ -69,7 +83,8 @@ font-size: 16px;
 
 .button-business:focus,
 .button-business:hover {
-    background-color: #404bbf;
+    background: #404BBF;
+    
 }
 
 .base-h-two {
